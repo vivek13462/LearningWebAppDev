@@ -1,52 +1,88 @@
 body {
-  background: #f9e933;
+    background: #f9e933;
 }
 
 header, main, footer {
-  min-width: 855px;
+    min-width: 53.43em;
 }
 
 header .container, main .container, footer .container {
-  max-width: 855px;
-  margin: auto;
-}
-
-header {
-  background: white;
-  overflow: auto;
-}
-
-header h1 {
-  float: left;
-  width: 570px;
-}
-
-header nav {
-  float: right;
-  width: 285px;
+    max-width: 53.43em;
+    margin: auto;
 }
 
 main {
-  background: white;
-  overflow: auto;
+    background: white;
+
+}
+main p {
+    color: blue;
+}
+.qsn1{
+    color: black
+}
+.qsn2{
+    color: black
+}
+.qsn3{
+    color: black
+}
+.topic{
+    color: black
+}
+header {
+    background: white;
+    overflow: auto;
 }
 
-main .left {
-  float: left;
-  width: 570px;
+ h1 {
+    float: left;
+    width: 35.625em;
 }
 
-main .right {
-  float: right;
-  width: 285px;
+header nav {
+    float: right;
+    width: 17.81em;
 }
 
-footer .left {
-  float: left;
-  width: 570px;
+table {
+    width: 21.87em;
+    margin-left: auto;
+    margin-right: auto;
+    color: blue;
+}
+.button {
+	
+	border-radius:3em;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:blue;
+	font-family:Arial;
+	font-size:1.062em;
+	padding:1em 1.937em;
+	text-decoration:none;
+	
+}
+.button:hover {
+	background-color:grey;
+}
+input[type=text], select {
+    width: 100%;
+   
+    margin: 0.5em 0;
+    display: inline-block;
+    
+    border-radius: 0.25em;
+   
+}
+input[type=password], select {
+    width: 100%;
+    
+    margin: 0.5em 0;
+    display: inline-block;
+    
+    border-radius: 0.25em;
+    
 }
 
-footer .sitemap {
-  float: right;
-  width: 285px;
-}
