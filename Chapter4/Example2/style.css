@@ -81,6 +81,53 @@ main {
     background: gainsboro;
 }
 
+
+.comment-inputuser2 {
+  float: left;
+  width: 285px;
+}
+
+.comment-inputuser2 p {
+  margin-bottom: 10px;
+}
+
+.comment-inputuser2 input {
+  width: 80%;
+  height: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.comment-inputuser2 button {
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+  color: ivory;
+  background: olivedrab;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+
+.commentsuser2 {
+  float: right;
+  width: 570px;
+}
+
+.commentsuser2 p {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.commentsuser2 p:nth-child(even) {
+    background: gold;
+}
+
+.commentsuser2 p:nth-child(odd) {
+    background: yellow;
+}
+
 footer {
     font-size: smaller;
     margin-top: 5px;
