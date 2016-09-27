@@ -40,6 +40,7 @@ header {
     width: 35.625em;
 }
 
+
 header nav {
     float: right;
     width: 17.81em;
@@ -50,34 +51,11 @@ table {
     margin-left: auto;
     margin-right: auto;
     color: blue;
-}
-.button {
-	
-	border-radius:3em;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:blue;
-	font-family:Arial;
-	font-size:1.062em;
-	padding:1em 1.937em;
-	text-decoration:none;
-	
-}
-.button:hover {
-	background-color:grey;
-}
-input[type=text], select {
-    width: 100%;
-   
-    margin: 0.5em 0;
-    display: inline-block;
     
-    border-radius: 0.25em;
-   
 }
+
 input[type=password], select {
-    width: 100%;
+    
     
     margin: 0.5em 0;
     display: inline-block;
@@ -85,4 +63,38 @@ input[type=password], select {
     border-radius: 0.25em;
     
 }
+
+input[type=text], select {
+    
+    
+    margin: 0.5em 0;
+    display: inline-block;
+    
+    border-radius: 0.25em;
+    
+}
+
+label {
+color: #B4886B;
+font-weight: bold;
+display: block;
+width: 150px;
+float: left;
+}
+
+.button {background-color: #A333C8;
+    color: #FFFFFF;
+    text-shadow: none;
+    background-image: none;
+}
+
+.maindiv {background-color: antiquewhite;  
+    margin: auto;
+    width: 50%;
+    border: 0.125em;
+    padding: 0.625em;
+    height: 50%;
+}
+
+
 
